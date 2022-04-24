@@ -1,0 +1,122 @@
+.navbar {
+    overflow: hidden;
+
+  }
+  
+  .navbar a {
+    float: left;
+    font-weight: bolder;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+  }
+          .subnav {
+    float:right;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    font-weight: bolder;
+    right: 500px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    border-radius: 25px;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: red;
+    border-radius: 40px;
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    background-color: red;
+    width:  8.7%;;
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  
+
+  .navbar2 {
+    overflow: hidden;
+
+  }
+  
+  .navbar2 a {
+    float:right;
+    font-weight: bolder;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+          .subnav2 {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .subnav2 .subnavbtn2 {
+      font-weight:bold;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar2 a:hover, .subnav2:hover .subnavbtn2 {
+    background-color: red;
+    border-radius: 40px;
+  }
+  
+  .subnav2-content {
+    display: none;
+    position:absolute;
+    background-color: red;
+    width: 8.7%;
+    z-index: 1;
+  }
+  
+  .subnav2-content a {
+    float: right;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subnav2-content a:hover {
+    background-color: #eee;
+    color: black;
+    border-radius: 40px;
+  }
+  
+  .subnav2:hover .subnav2-content {
+    display: block;
+    
+  }

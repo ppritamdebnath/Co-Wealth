@@ -1,0 +1,34 @@
+.back{
+    position:relative;
+}
+.first-txt {
+position: absolute;
+top: 17px;
+left: 450px;
+font-weight: bolder;
+}
+
+.second-txt {
+position: absolute;
+top: 17px;
+right: 400px;
+font-weight: bolder;
+}
+.third-txt {
+    position: absolute;
+    top: 230px;
+    left: 65px;
+    color: rgb(165, 165, 1);
+    font-size:500%;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.forth-txt {
+    position: absolute;
+    top: 450px;
+    left: 70px;
+    color: rgb(12, 135, 184);
+    font-size:150%;
+    font-style: italic;
+    font-family:cursive;
+}
